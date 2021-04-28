@@ -47,7 +47,7 @@ node index.js YOUR_API_KEY_HERE --full
 
 #### dfuse Community Edition
 
-The dfuse Firehose is service is also available via EOS Nation dfuse Community edition. Access to the dfuse Community Edition does not require authentication, and is rate-limited. A higher rate limit is available to authenticatated users. The service being shared with the whole community, please be mindful of your requests. To create an API key for the dfuse Community Edition, visit [EOS Nation Account Page](https://account.eosnation.io).
+The dfuse Firehose service is also available via EOS Nation dfuse Community Edition. Access to the dfuse Community Edition does not require authentication, and is rate-limited. A higher rate limit is available to authenticatated users. The service being shared with the whole community, please be mindful of your requests. To create an API key for the dfuse Community Edition, visit [EOS Nation Account Page](https://account.eosnation.io).
 
 Update the example `createDfuseClient` to looks like:
 
