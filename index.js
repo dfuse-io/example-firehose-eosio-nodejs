@@ -30,7 +30,7 @@ async function main() {
   })
 
   const client = new bstreamService.BlockStreamV2(
-    "blocks.mainnet.eos.dfuse.io",
+    "blocks.mainnet.eos.dfuse.io:443",
     grpc.credentials.createSsl()
   )
 
