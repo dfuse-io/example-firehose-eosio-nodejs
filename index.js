@@ -31,11 +31,11 @@ async function main() {
 
   const dfuse = createDfuseClient({
     apiKey: process.argv[2],
-    network: "blocks.mainnet.eos.dfuse.io",
+    network: "eos.firehose.eosnation.io",
   })
 
   const client = new bstreamService.BlockStreamV2(
-    "blocks.mainnet.eos.dfuse.io:443",
+    "eos.firehose.eosnation.io:9000",
     grpc.credentials.createSsl()
   )
 
