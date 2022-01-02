@@ -36,7 +36,10 @@ async function main() {
 
   const client = new bstreamService.BlockStreamV2(
     "eos.firehose.eosnation.io:9000",
-    grpc.credentials.createSsl()
+    grpc.credentials.createSsl(), {
+      "grpc.max_receive_message_length": 1024 * 1024 * 100,
+      "grpc.max_send_message_length": 1024 * 1024 * 100
+    }
   )
 
   const showFull = process.argv.length > 3 && process.argv[3] == "--full"
